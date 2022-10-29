@@ -64,9 +64,42 @@
 
 }
 
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
  
+@media (min-width: 1024px){
+    html{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        background-color: var(--Very-light-gray-background-headings-buttons);
+    }
+    .container_cards_cars{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        width: 1024px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 0;
+        padding: 3.5rem;
+        height: 500px;
+    
+    }
+    .card:nth-child(1){
+        background-color: var(--Brightorange);
+        border-radius: 1rem 0 0 1rem;
+    }
+    .card:nth-child(2){
+        background-color: var(--Darkcyan);
+    }
+    .card:nth-child(3){
+        background-color: var(--Verydarkcyan);
+        border-radius: 0 1rem 1rem 0 ;
+    }
+
+}
