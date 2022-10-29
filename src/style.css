@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.container_cards_cars{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--Very-light-gray-background-headings-buttons);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3.5rem;
+    height: 100%;
+
+}
+.card:nth-child(1){
+    background-color: var(--Brightorange);
+    border-radius: 1rem 1rem 0 0;
+}
+.card:nth-child(2){
+    background-color: var(--Darkcyan);
+}
+.card:nth-child(3){
+    background-color: var(--Verydarkcyan);
+    border-radius: 0 0 1rem 1rem;
+}
+.card h2{
+    color: var(--Very-light-gray-background-headings-buttons);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+.card p{
+    color: var(--Transparent-white-paragraphs);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+.card a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    color: var(--Brightorange);
+    background-color: var(--Very-light-gray-background-headings-buttons);
+    width: 145px;
+    border-radius: 2rem;
+
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
